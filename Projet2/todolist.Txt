@@ -1,0 +1,16 @@
+les spécifications de mes accessseurs.
+isdigit pour vérfier si se sont bien des nombres.
+mettre en static toute les fonctions dont je ne me sers pas dans le main
+mkdir -p
+checker si le nombre scanné n'est pas négatif
+vérfier si le tableau binaire n'est pas = NULL
+check si le nombre est représentable en binaire
+return si une des lignes du fichiers est vide
+free sinon fuite mem
+accepter les chemins relatifs
+les bits en bas à droite
+exclure seatest.c/h de la doc avec EXCLUDE dans doxyfile
+load l'image pnm exemple et la write pour comparer avec celle créer par le qrcode
+!!!MESSAGE D'ERREUR SIGNIFICATIF
+faire un test pour un fichier texte avec un espace dans la matricules
+faire un test avec des lettres dans les matricules

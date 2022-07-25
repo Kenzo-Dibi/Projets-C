@@ -1,0 +1,9 @@
+Apprentissage: Aucun tests sur la lecture ou l ecriture d une image (lire deux fois la meme image et les comparer entre elles ne veut pas dire que ta lecture est correcte. Ton code est deterministe, donc dans tous les cas, le resultat sera le meme et ca ne sert a rien de comparer), tests sur la lecture dun fichier de matricules ok, mais ce nest pas le coeur du projet. Un de tes tests echoue. . Exactitude: Warnings, fichier pas ferme en cas d erreur, aucun code de corrections de code barre, . Langage: Operations inutiles (un accesseur n a pas besoin de retourner un pointeur sur la structure a laquelle il accede. En plus de ca, un accesseur ne retournera jamais null, ca ne sert donc a rien de verifier sa valeur de retour), code monolithique, strncat existe dans le standard c (au lieu de tout re-implementer toi meme), tu peux utiliser calloc si tu veux remplir la memoire allouee de 0, . Style: Utilisation du meme nom pour les indices de deux boucles differentes dans decimal_to_binary, non respect des conventions de noms, parentheses inutiles, noms de fonctions non significatifs, manque de documentation,
+
+
+
+moi: 
+
+PNM* create_matrix(PNM* image, int lines ,int columns) , la calloc à la place ?
+doc fonction static à revérifier
+demander aide correction codebarre
